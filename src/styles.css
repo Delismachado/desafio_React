@@ -1,39 +1,46 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(168, 151, 172);
 }
 
 body {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 div {
-  width: 100%;
-  margin: 20px;
+    width: 100%;
+    margin: 20px;
 }
 
 div li {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-div li + li {
-  margin-top: 15px;
+div li+li {
+    margin-top: 15px;
 }
 
 button {
-  background: #7159c1;
-  color: #fff;
-  border: 0;
-  padding: 10px 15px;
-  cursor: pointer;
-  margin-top: 15px;
-  font-weight: bold;
-  font-size: 14px;
+    background: #7159c1;
+    color: #fff;
+    border: 0;
+    padding: 10px 100px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 div li button {
-  margin: 0 15px;
-  background: #ca4949;
+    margin: 0 20px;
+    padding: 10px 20px;
+    background: #8d126e;
+}
+
+h1 {
+    font-size: 36px;
+    margin: auto;
 }
